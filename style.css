@@ -1,0 +1,99 @@
+body 
+{
+  font-family: 'Source Sans Pro', sans-serif;
+  line-height: 1.5;
+  background: #F5F5DC;
+  color: #323232;
+}
+
+img 
+{
+  max-width: 100%;
+}
+a 
+{
+  color: #323232;
+  text-decoration: none;
+}
+
+a:hover 
+{
+  text-decoration: underline;
+}
+
+.container 
+{
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 32px;
+  background: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+section 
+{
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-gap: 20px;
+  padding: 24px 0;
+  border-bottom: 1px solid lightgrey;
+}
+section:last-child 
+{
+  border-bottom: none;
+}
+.session
+{
+	margin-right: 10px;
+}
+.section-title 
+{
+  font-weight: bold;
+  font-size: 30px;
+  margin-left: 5px;
+}
+.my-name 
+{
+  font-size: 48px;
+  line-height: 1;
+}
+
+.my-title 
+{
+  font-size: 24px;
+  font-weight: 300;
+  color: #236FB2;
+}
+.section-container 
+{
+  padding-bottom: 24px;
+  margin-bottom: 24px;
+}
+
+.section-container:last-child 
+{
+  border-bottom: none;
+}
+
+.title-container 
+{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.title 
+{
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+#skill-name
+{
+	font-weight: bold;
+}
+#skill
+{
+	font-style: italic;
+}
