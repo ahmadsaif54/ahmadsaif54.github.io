@@ -1,14 +1,77 @@
 body 
 {
   font-family: 'Source Sans Pro', sans-serif;
-  line-height: 1.5;
+  line-height: 2.0;
   background: #F5F5DC;
   color: #323232;
 }
-
-img 
+.bg-black
 {
-  max-width: 100%;
+	background-color: black;
+}
+.make-bold
+{
+	font-weight: bold;
+}
+.title 
+{
+    color: grey;
+    font-size: 18px;
+}
+.sub
+{
+	font-size: 16px;
+}
+.font-d
+{
+	width: 30%;
+}
+img
+{
+	width:100%;
+	height: 100%;
+}
+
+@media only screen and (min-width: 1200px)
+{
+	.font-d
+	{
+		padding: 104.5px 0px!important;
+	}
+		
+}
+@media only screen and (max-width: 1199px )
+{
+	.font-d
+	{
+		width: 25% ;
+	}
+		
+}
+@media only screen and (max-width: 991px )
+{
+	    .fa
+		{
+			font-size: 35px;
+			
+		}
+		#title
+        {
+	        font-size: 11px;
+        }
+		
+	
+		
+}
+aa 
+{
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+}
+
+button:hover, aa:hover {
+    opacity: 0.7;
 }
 a 
 {
@@ -18,51 +81,22 @@ a
 
 a:hover 
 {
-  text-decoration: underline;
+  opacity: 0.7;
 }
 
-.container 
-{
-  max-width: 1200px;
-  margin: 40px auto;
-  padding: 32px;
-  background: white;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-section 
-{
-  display: grid;
-  grid-template-columns: 1fr 4fr;
-  grid-gap: 20px;
-  padding: 24px 0;
-  border-bottom: 1px solid lightgrey;
-}
-section:last-child 
-{
-  border-bottom: none;
-}
-.session
-{
-	margin-right: 10px;
-}
 .section-title 
 {
   font-weight: bold;
   font-size: 30px;
   margin-left: 5px;
 }
-.my-name 
+#skill-name
 {
-  font-size: 48px;
-  line-height: 1;
+	font-weight: bold;
 }
-
-.my-title 
+#skill
 {
-  font-size: 24px;
-  font-weight: 300;
-  color: #236FB2;
+	font-style: italic;
 }
 .section-container 
 {
@@ -82,18 +116,18 @@ section:last-child
   margin-bottom: 20px;
   font-size: 18px;
 }
-
-.title 
+.session
 {
-  font-weight: bold;
-  line-height: 1.2;
+	margin-right: 10px;
 }
-
-#skill-name
+#mylist
 {
-	font-weight: bold;
+	width: 300px;
+	cursor:pointer;
 }
-#skill
-{
-	font-style: italic;
+select option {
+    margin: 40px;
+    background: rgba(0, 0, 0, 0.3);
+    color: black;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
 }
