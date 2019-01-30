@@ -12,6 +12,16 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600">
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <link rel="stylesheet" href="style.css">
+  <link rel='stylesheet' href='https://www.botlibre.com/css/chatlog.css' type='text/css'>
+  <link rel='stylesheet' href='https://www.botlibre.com/css/blue_round_button.css' type='text/css'>
+  <style>
+  #botplatformbox {} #botplatformboxbar {} #botplatformboxbarmax {} #botplatformboxmin {} #botplatformboxmax {} #botplatformboxclose {} #botplatformbubble-text {} #botplatformbox-input {}
+  </style>
+
+<!-- <style> -->
+<!-- // You can customize the css styles here -->
+<!-- #botplatformbox {} #botplatformboxbar {} #botplatformboxbarmax {} #botplatformboxmin {} #botplatformboxmax {} #botplatformboxclose {} #botplatformbubble-text {} #botplatformbox-input {} -->
+<!-- </style> -->
   <script type="text/javascript">
 
 	function updateClock ( )
@@ -424,5 +434,35 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="crossorigin="anonymous"></script>
+<script type='text/javascript' src='https://www.botlibre.com/scripts/sdk.js'></script>
+<script type='text/javascript'>
+SDK.applicationId = "9212851265797133018";
+SDK.backlinkURL = "http://www.botlibre.com/login?affiliate=ahmadsaif54";
+SDK.lang = "en";
+var sdk = new SDKConnection();
+var web = new WebChatbotListener();
+web.connection = sdk;
+web.instance = "25725529";
+web.instanceName = "AI Bot";
+web.prefix = "botplatform";
+web.caption = "Chat Now";
+web.boxLocation = "bottom-right";
+web.color = "#009900";
+web.background = "#fff";
+web.css = "https://www.botlibre.com/css/chatlog.css";
+web.version = 6.0;
+web.bubble = true;
+web.backlink = true;
+web.showMenubar = true;
+web.showBoxmax = true;
+web.showSendImage = true;
+web.showChooseLanguage = true;
+web.chatLog = true;
+web.popupURL = "https://www.botlibre.com/chat?&id=25725529&embedded=true&chatLog=true&facebookLogin=false&application=9212851265797133018&bubble=true&menubar=true&chooseLanguage=true&sendImage=true&background=%23fff&prompt=You+say&send=Send&css=https://www.botlibre.com/css/chatlog.css&language=en";
+web.createBox();
+</script>
+
+
+
 </body>
 </html>
